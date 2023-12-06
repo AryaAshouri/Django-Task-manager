@@ -1,0 +1,47 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+*:focus {
+    outline:none;
+}
+body {
+    background-color:white;
+}
+#main-container {
+    justify-content:center;
+    display:flex;
+    margin:0px auto;
+}
+#setting-section {
+    background-color:rgb(240,240,240);
+    width:250px;
+    height:600px;
+    border-radius:5px;
+    margin:20px auto;
+}
+#working-section {
+    background-color:rgb(240,240,240);
+    width:1050px;
+    height:600px;
+    border-radius:5px;
+    margin:20px auto;
+    margin-left:-5px;
+}
+.setting-section-option {
+    background-color:rgb(230,230,230);
+    width:210px;
+    height:30px;
+    font-family:Inter;
+    font-size:14px;
+    color:rgb(60,60,60);
+    padding-left:20px;
+    padding-top:15px;
+    margin:13px 10px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.5s;
+}
+.setting-section-option:hover {
+    background-color:rgb(220,220,220);
+}
